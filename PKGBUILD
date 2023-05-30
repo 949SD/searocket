@@ -19,7 +19,7 @@ md5sums=() #autofill using updpkgsums
 sha256sums=('SKIP')
 
 pkgver() {
-    git -C "$pkgname" describe
+    git -C "$pkgname" describe | sed 's/-/_/g'
 }
 
 build() {
