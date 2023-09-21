@@ -7,9 +7,8 @@ pkgdesc="slimmed down version of spaceship."
 arch=('x86_64')
 url="https://github.com/dk949/$_pkgname"
 license=('MIT')
-depends=('zsh')
+depends=('zsh' 'ldc')
 optdepends=('fc-list: to detect if Nerd fonts are available')
-makedepends=('ldc')
 provides=(
     'searocket'
     'searocket.zsh'
