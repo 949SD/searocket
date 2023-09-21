@@ -1,13 +1,14 @@
 # Maintainer: David K david.dk949@gmail.com
 _pkgname=searocket
 pkgname="${_pkgname}-949sd"
-pkgver="unknown"
-pkgrel=0
+pkgver=v1.4.2_1_gcbb2403
+pkgrel=1
 pkgdesc="slimmed down version of spaceship."
 arch=('x86_64')
 url="https://github.com/dk949/$_pkgname"
 license=('MIT')
-depends=('zsh' 'ldc')
+depends=('zsh')
+makedepends=('ldc')
 optdepends=('fc-list: to detect if Nerd fonts are available')
 provides=(
     'searocket'
